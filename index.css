@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 200px;
+}
+header h1 {
+    color: rgb(255, 181, 181);
+}
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(230, 175, 175, 0.315);
+}
+.badge {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 217, 217);
+}
+body {
+    background-color: white;
+}
+#user-label {
+    position: absolute;
+    top: 0px;
+    padding-right: 10px;
+}
+#comp-label {
+    position: absolute;
+    top: 0px;
+    left: 120px;
+}
+
+
+.score-board {
+    margin: 20px auto;
+    text-align: center;
+    background-color: rgb(245, 234, 236);
+    border-radius: 5px;
+    color: rgb(255, 181, 181);
+    font-size: 30px;
+    border: 10px solid rgba(230, 175, 175, 0.315);
+    width: 200px;
+    position: relative;
+}
+.result {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 181, 181);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.choices {
+    text-align: center;
+    margin: 60px;
+}
+.choice {
+    border: 15px solid rgba(230, 175, 175, 0.315);
+    border-radius: 10%;
+    padding: 10px;
+    margin: 0px 5px;
+    display: inline-block;
+    transition: all 0.3s ease;
+
+}
+#action {
+    color: rgb(255, 181, 181);
+    font-size: 30px;
+    line-height: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.choice:hover {
+    cursor: pointer;
+    border: 20px solid rgba(110, 83, 83, 0.315);
+    border-radius: 10%;
+}
